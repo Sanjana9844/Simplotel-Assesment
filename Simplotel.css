@@ -1,0 +1,206 @@
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			height:100%;
+			width: 100%;
+			font-family:62.5%;
+		}
+		.parent{
+			display: block;
+		}
+		.one{
+			height:3.0rem;
+			background-color: white;
+			display:flex;
+               align-items:center;
+               justify-content:space-around;
+			letter-spacing:.2rem;
+			font-size:1rem;       
+		}
+		.one2{
+			text-decoration: none;
+			padding:0rem 1.5rem;
+			color:black;
+		}
+		.one4{
+			height:1.5rem;
+		}
+
+          .two{
+          	width:100%;
+          	background-image: linear-gradient(to right,#e62eab,#f2e746);
+          	
+          	position:relative;
+          }
+          
+		.two3{
+			width:100%
+		}
+		.two4{
+			background-color:RGBA(250, 5, 38,0.3);
+			height:11rem;
+			width: 28rem;
+			position: absolute;
+               color: #f2edee;
+			top:28%;
+			left:5.8%;
+			font-family: sans-serif;
+
+		}
+          .two5{
+          	padding:1.2rem 1.6rem;
+          	font-size: 2.5rem;
+          }
+          .two6{
+          	font-size: .95rem;
+          	padding:0rem 1.8rem;
+          }
+
+          .mid{
+          	display: inline-block;
+          	height: 10rem;
+          	width:100%;
+          	background-image: linear-gradient(to right,#e62eab,#f2e746);
+          	box-shadow: 0rem .2rem rgba(222, 214, 213,0.6);
+          }
+          
+          .three{
+               width:100%;
+          	background-image: linear-gradient(to right,#e62eab,#f2e746);
+          	margin:2rem 0rem;
+          	font-family: sans-serif;
+               height: 90rem;
+               box-shadow: 0rem .2rem rgba(222, 214, 213,0.6);
+          
+          }
+          .three1{
+          	display: flex;
+          	justify-content: space-around;
+          	font-size:3rem;
+          	color:white;
+          	letter-spacing:.2rem;
+          }
+          .three2{
+          	display:flex;
+          	justify-content: space-around;
+          	flex-wrap:wrap;
+
+          }
+          .three3 {
+          	margin:3rem;
+               background-color: white;
+          	height:27rem;
+          	width:20rem;
+               overflow: hidden;
+               border:2rem solid white;
+               border-radius: 0rem 3rem;
+          }
+          .three4{
+          	border-top-right-radius: 3rem;
+          }
+          .three3 img{
+          	width:100%;
+          	height:20rem;
+          }
+          
+          
+          #fig1{
+          	padding: 1rem 0rem;
+          	text-align: center;
+          	font-size:1.6rem;
+          	font-weight: bold;
+          }
+          #des{
+          	text-align: center;
+               font-size:1.3rem;
+          }
+          button{
+          	border-radius:2rem 2rem;
+          	width:15rem;
+          	height:3rem;
+          	background-color:RGBA(237, 211, 233,0.4);
+          	border:none;
+          	display: flex;
+          	align-items: center;
+          	justify-content: center;
+          	font-weight: bold;
+          	margin: auto;
+          }
+          .four1{
+          	text-decoration: none;
+          	color:black;
+          	font-size: 1.4rem;
+          	text-align: center;
+          }
+           
+
+          @media (min-width:960.6px){
+         	.one{
+			height:2.9rem;
+			letter-spacing:.2rem;
+			font-size:1.2rem;  
+		}
+		.one2{
+			padding:0rem 1rem;
+		}
+		.one4{
+			height:1.2rem;
+		}
+		.two4{
+			height:12rem;
+			width: 28rem;
+		}
+          .two5{
+          	padding:1rem 1.2rem;
+          	font-size: 2.5rem;
+          }
+          .two6{
+          	font-size: .9rem;
+          	padding:0rem 1.4rem;
+          }
+          .three{
+               height: 125rem;
+          }
+		
+         }
+
+
+          @media(max-width:960.5px){
+
+         	.one{
+			height:2.6rem;
+			letter-spacing:.1rem;
+			font-size:.6rem;  
+		}
+		.one2{
+			padding:0rem .8rem;
+		}
+		.one4{
+			height:.6rem;
+		}
+		
+		.two4{
+			height:9rem;
+			width: 22rem;
+		}
+          .two5{
+          	padding:1rem 1.2rem;
+          	font-size: 1.7rem;
+          }
+          .two6{
+          	font-size: .7rem;
+          	padding:0rem 1.4rem;
+          }
+          .three{
+               height: 125rem;
+          }
+         }
+
+         
+        
+
+
+
+
